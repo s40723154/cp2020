@@ -122,7 +122,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='cmsimde.html'>cmsimde</a><ul class='dropdown'><li class='has-children'><a href='CMSiMDE 程式架構.html'>CMSiMDE 程式架構</a><ul class='dropdown'><li><a href='網際內容管理.html'>網際內容管理</a></li></li></ul></ul><li><a href='hw1.html'>hw1</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='cmsimde.html'>cmsimde</a><ul class='dropdown'><li class='has-children'><a href='CMSiMDE 程式架構.html'>CMSiMDE 程式架構</a><ul class='dropdown'><li><a href='網際內容管理.html'>網際內容管理</a><li><a href='如何建立CMSIMDE子模組.html'>如何建立CMSIMDE子模組</a><li><a href='兩種git clone.html'>兩種git clone</a><li><a href='為何需要動態網頁和靜態網頁.html'>為何需要動態網頁和靜態網頁</a></li></li></ul></ul><li><a href='hw1.html'>hw1</a></li>
                       </ul>
                 </nav>
               </div>
@@ -134,6 +134,9 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">Develop << <a href='Develop.html'>Previous</a> <a href='CMSiMDE 程式架構.html'>Next</a> >> CMSiMDE 程式架構<br /><h1>cmsimde</h1>
+<p>動態網頁的主要檔案為  config/content.htm</p>
+<p>當使用者在命令列中將目錄更換到 cmsimde, 然後以 python wsgi.py 執行 wsgi.py 程式時, 其實 Python 程式是仰賴 Flask 網際框架結構來進行資料伺服.</p>
+<p>CMSiMDE 的作動需要 Flask 網際框架, 需要 bs4 與 lxml 進行 content.htm 的頁面解讀, 透過超文件檔案中的 h1, h2 與 h3 由上到下執行循序式分頁, 之後再透過 Javascript 與 css 將 h1, h2, h3 依照樹狀結構, h1 標題為第一階, h2 為第二階, h3 為第三階</p>
 <br />Develop << <a href='Develop.html'>Previous</a> <a href='CMSiMDE 程式架構.html'>Next</a> >> CMSiMDE 程式架構</div>
         
     <!-- footer -->

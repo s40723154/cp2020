@@ -15,6 +15,19 @@
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <p></p>
 <h1>cmsimde</h1>
+<p>動態網頁的主要檔案為  config/content.htm</p>
+<p>當使用者在命令列中將目錄更換到 cmsimde, 然後以 python wsgi.py 執行 wsgi.py 程式時, 其實 Python 程式是仰賴 Flask 網際框架結構來進行資料伺服.</p>
+<p>CMSiMDE 的作動需要 Flask 網際框架, 需要 bs4 與 lxml 進行 content.htm 的頁面解讀, 透過超文件檔案中的 h1, h2 與 h3 由上到下執行循序式分頁, 之後再透過 Javascript 與 css 將 h1, h2, h3 依照樹狀結構, h1 標題為第一階, h2 為第二階, h3 為第三階</p>
 <h2>CMSiMDE 程式架構</h2>
 <h3>網際內容管理</h3>
+<p><span>全球資訊網無遠弗屆, 而且 WWW 的伺服架構相對於手機 APP 對於使用者而言更加友善, 除了允許多重身分無需實名綁定之外, 可以讓工程師進行各種協同設計, 因此若能廣泛利用網際環境建立各種應用程式環境, 將有助提升設計效益.</span></p>
+<h3>如何建立CMSIMDE子模組</h3>
+<p>git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>表示要透過 git submodule add 將<span> </span><a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> 遠端倉儲當作子模組, 而且將資料存入子目錄 cmsimde 中</p>
+<h3>兩種git clone</h3>
+<p>git clone<span> </span><a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a></p>
+<p>表示要將 cmsimde 倉儲的資料 clone 到近端, 針對沒有子模組設置的倉儲可以直接以 git clone 取下倉儲資料</p>
+<p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/cp2020.git">https://github.com/mdecourse/cp2020.git</a></p>
+<p>表示要將 cp2020 倉儲中包含個子模組與可能子模組中的子模組等資料, 全部 clone 到近端.</p>
+<h3>為何需要動態網頁和靜態網頁</h3>
 <h1>hw1</h1>
