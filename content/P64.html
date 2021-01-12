@@ -1,0 +1,227 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40723154 </h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40723154 </a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='cmsimde.html'>cmsimde</a><ul class='dropdown'><li class='has-children'><a href='CMSiMDE 程式架構.html'>CMSiMDE 程式架構</a><ul class='dropdown'><li><a href='網際內容管理.html'>網際內容管理</a><li><a href='如何建立CMSIMDE子模組.html'>如何建立CMSIMDE子模組</a><li><a href='兩種git clone.html'>兩種git clone</a><li><a href='為何需要動態網頁和靜態網頁.html'>為何需要動態網頁和靜態網頁</a></li></li></ul></ul><li class='has-children'><a href='hw1.html'>hw1</a><ul class='dropdown'><li><a href='P62.html'>P62</a><li><a href='P63.html'>P63</a><li><a href='P64.html'>P64</a><li><a href='p88.html'>p88</a><li><a href='p118.html'>p118</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">P63 << <a href='P63.html'>Previous</a> <a href='p88.html'>Next</a> >> p88<br /><h1>P64</h1>
+<p id="N105A4" lang="">User authentication typically relies on the user providing a username and password, but in modern networks the need for security is changing this requirement. When a user provides simply a username and password, this is considered single-factor authentication. In modern systems, as the need for security increases, so does the need for multiple factors of authentication, such as two-factor authentication (at a minimum) or multi-factor authentication.</p>
+<p id="N105A7" lang="">There are four common categories of authentication:</p>
+<ol lang="">
+<li lang="">Something the user knows.</li>
+<li lang="">Something the user has.</li>
+<li lang="">Something the user is.</li>
+<li lang="">Something the user does.</li>
+</ol>
+<p id="N105B9" lang="">Something the user knows is typically used by most systems, such as the user providing a username, password, or personal identification number (PIN). This is also the easiest authentication for an attacker to overcome, since they simply need to guess or collect the user’s knowledge to gain access. The second category is something the user has, which is usually fulfilled by the user presenting a smart card, security token, or RFID chip. The third category is something the user is, which usually refers to some biometric data about the user. This could be the user’s fingerprint, retina scan, or even voice authentication. The fourth and final category is something the user does, such as how the user’s signature looks. This is a very uncommon authentication method for workstation or website access, but is used heavily in payment systems, such as credit card terminals.</p>
+<p id="N105BC" lang="">To ensure a high level of security, many workstations and websites now require two-factor authentication. As mentioned earlier in this module, in the Department of Defense computer systems, the user is required to insert their CAC (common access card), which is a smart card, and also enter a personal identification number to gain access to the system. This two-factor authentication provides both something the user has (the smart card) and something the user knows (the PIN) to authenticate the user and log the user on to a Windows workstation.</p>
+<p lang="">Passwords</p>
+<div class="section" id="N105BF">
+<div class="sectionContain">
+<p id="N105C6" lang="">Because usernames and passwords are the most common method of authentication, we will dig a little deeper into the best practices for a password system. Passwords can be verified by the local system, such as by using a username/password with a local PC or an access code number for a digital door lock. Passwords can also be verified by using a remote server, such as when a domain user logs in to a workstation connected to a domain controller. The local system does not verify the password; the domain controller does.</p>
+<p id="N105C9" lang="">The threat of security breaches has changed the whole concept of passwords from the days when they were simply used to keep another user from accessing your profile. Data has become an important form of currency throughout the world, so the need for password complexity has evolved. The first rule of data security, which most users will admit to breaking sometimes, is to never write down a password on paper and leave it in the desk or on a sticky note on the desk or monitor. Passwords need to be memorized or stored in a password manager utility where access is controlled by a single password. The second rule, which is also often broken, is to never use the same password for multiple different things. Some of the most recents hacks have involved two or more databases from online vendors, and the attackers were able to merge the information to develop usernames and passwords. Those using the same password for multiple accounts were most vulnerable.</p>
+<p id="N105CC" lang="">Passwords can be verified by the local system, such as by using a username/password on a local PC or an access code number for a digital door lock. Passwords can also be verified by using a remote server, such as when a domain user logs in to a workstation connected to a domain controller. The local system does not verify the password; the domain controller does.</p>
+<p id="N105CF" lang="">Passwords must be complex, containing a mixture of uppercase and lowercase letters, numbers, and symbols. Additionally, passwords should be long: they should be at least 6–8 characters in length, but more characters provide a more secure password. It is imperative to avoid dictionary words, as these are easier to guess, and consider using a passphrase if possible. One technique to create a strong password is to pick a song or poem and use the first letter from each word as the password, as well as incorporating some numbers and symbols. This makes a strong, hard-to-guess password.</p>
+<p id="N105D2" lang="">The system administrator has the ability to configure the password system in Windows to create rules that the passwords must follow. These settings should be in line with company policy and should follow the best practices mentioned above, as well as adding some new requirements. One practice is requiring passwords to be renewed every 60 days. Setting a maximum password age eliminates threats from old access lists or former employees. The system can be set up to prompt users to change their passwords approximately 14 days prior to expiration. Also, the system administrator can set the system to require a minimum password length, such as six characters or 14 characters. There is an option to require complex passwords — passwords that require uppercase, lowercase, numeric, and symbolic characters. Another option is to prevent old passwords from being reused, with a setting that can dictate how many old passwords are remembered by the system. This is called password history. The system administrator can set the limit on password history up to 25 previous passwords in memory. Finally, if an attacker is trying to guess a user’s password, there is a setting that will prevent this by locking the user’s account if a certain number of unsuccessful logins occur within a certain period of time. For example, if four failed logins occur within 15 minutes, the system might require a 60-minute wait before letting the user log in (even if the user tries the correct password) or might require the system administrator to reset the password.</p>
+<p lang=""><img alt="" height="264" src="./../images/password.png" width="396"/></p>
+<p id="N105A4" lang=""><span>用戶身份驗證通常依賴於用戶提供用戶名和密碼，但是在現代網絡中，對安全性的需求正在改變這一要求。當用戶僅提供用戶名和密碼時，這被視為單因素身份驗證。在現代系統中，隨著對安全性的需求增加，對多種身份驗證的需求也在增加，例如兩因素身份驗證（至少）或多因素身份驗證。</span></p>
+<p id="N105A7" lang=""><span><span>有四種常見的身份驗證類別：</span></span></p>
+<ol lang="">
+<li lang=""><span><span>用戶知道的一些信息。</span></span></li>
+<li lang=""><span><span>用戶擁有的東西。</span></span></li>
+<li lang=""><span><span>用戶的東西。</span></span></li>
+<li lang=""><span><span>用戶要做的事情。</span></span></li>
+</ol>
+<p id="N105B9" lang=""><span><span>用戶知道的東西通常被大多數係統使用，例如用戶提供用戶名，密碼或個人識別碼（PIN）。</span><span>這也是攻擊者最容易克服的身份驗證，因為他們只需要猜測或收集用戶的知識即可獲得訪問權限。</span><span>第二類是用戶擁有的東西，通常由用戶出示智能卡，安全令牌或RFID芯片來實現。</span><span>第三類是用戶，通常指一些有關用戶的生物統計數據。</span><span>這可能是用戶的指紋，視網膜掃描甚至語音驗證。</span><span>第四個也是最後一個類別是用戶要做的事情，例如用戶簽名的外觀。</span><span>這是用於工作站或網站訪問的非常少見的身份驗證方法，但在支付系統中大量使用，</span></span></p>
+<p id="N105BC" lang=""><span><span>為了確保高級別的安全性，許多工作站和網站現在都需要兩因素身份驗證。</span><span>如本模塊前面所述，在國防部計算機系統中，要求用戶插入他們的CAC（公共訪問卡）（即智能卡），並輸入個人標識號以訪問系統。</span><span>這種雙重身份驗證提供了用戶擁有的（智能卡）和用戶知道的東西（PIN），以對用戶進行身份驗證並將用戶登錄到Windows工作站。</span></span></p>
+<p lang=""><span><span>密碼</span></span></p>
+<div class="section" id="N105BF">
+<div class="sectionContain">
+<p id="N105C6" lang=""><span><span>由於用戶名和密碼是最常用的身份驗證方法，因此我們將對密碼系統的最佳做法進行更深入的研究。</span><span>密碼可以通過本地系統進行驗證，例如通過在本地PC上使用用戶名/密碼或數字門鎖的訪問密碼。</span><span>也可以使用遠程服務器來驗證密碼，例如當域用戶登錄到連接到域控制器的工作站時。</span><span>本地系統不驗證密碼；</span><span>域控制器可以。</span></span></p>
+<p id="N105C9" lang=""><span><span>從僅僅用於防止其他用戶訪問您的個人資料的那一天起，安全漏洞的威脅已經改變了整個密碼的概念。</span><span>數據已成為全世界一種重要的貨幣形式，因此對密碼複雜性的需求也在不斷發展。</span><span>多數用戶有時會中斷的數據安全性第一法則是，永遠不要在紙上寫下密碼並將其留在桌子上或桌子或顯示器的便籤上。</span><span>密碼需要存儲或存儲在密碼管理器實用程序中，在該實用程序中，訪問權限由單個密碼控制。</span><span>第二個規則也經常被打破，那就是永遠不要對多個不同的事物使用相同的密碼。</span><span>最近發生的一些黑客攻擊涉及來自在線供應商的兩個或多個數據庫，</span><span>攻擊者能夠合併信息以開髮用戶名和密碼。</span><span>對多個帳戶使用相同密碼的用戶最容易受到攻擊。</span></span></p>
+<p id="N105CC" lang=""><span><span>密碼可以通過本地系統進行驗證，例如通過使用本地PC上的用戶名/密碼或數字門鎖的訪問密碼。</span><span>也可以使用遠程服務器來驗證密碼，例如當域用戶登錄到連接到域控制器的工作站時。</span><span>本地系統不驗證密碼；</span><span>域控制器可以。</span></span></p>
+<p id="N105CF" lang=""><span><span>密碼必須是複雜的，包含大小寫字母，數字和符號的混合。</span><span>此外，密碼應該很長：密碼長度至少應為6-8個字符，但是更多的字符可以提供更安全的密碼。</span><span>必須避免使用字典單詞，因為這些單詞更容易猜測，並在可能的情況下考慮使用密碼短語。</span><span>創建強密碼的一種技術是選擇一首歌曲或一首詩，並使用每個單詞的第一個字母作為密碼，並結合一些數字和符號。</span><span>這樣就形成了一個很難猜測的強密碼。</span></span></p>
+<p id="N105D2" lang=""><span><span>系統管理員可以在Windows中配置密碼系統，以創建密碼必須遵循的規則。</span><span>這些設置應符合公司政策，並應遵循上述最佳實踐，並添加一些新要求。</span><span>一種做法是要求每60天更新一次密碼。</span><span>設置最長密碼使用期限可以消除來自舊訪問列表或前員工的威脅。</span><span>可以將系統設置為提示用戶在到期前約14天更改密碼。</span><span>另外，系統管理員可以將系統設置為要求最小密碼長度，例如六個字符或14個字符。</span><span>有一個選項要求使用複雜的密碼，即要求使用大寫，小寫，數字和符號字符的密碼。</span><span>另一個選擇是通過設置可以指示系統記住多少個舊密碼的設置來防止舊密碼被重複使用。</span><span>這稱為密碼歷史記錄。</span><span>系統管理員可以設置密碼歷史記錄的限制，最多可以存儲25個先前的密碼。</span><span>最後，如果攻擊者試圖猜測用戶的密碼，則可以進行設置，以防止在一定時間內發生一定數量的不成功登錄時鎖定用戶帳戶。</span><span>例如，如果在15分鐘內發生了四次失敗的登錄，則係統可能需要等待60分鐘才能讓用戶登錄（即使用戶嘗試輸入正確的密碼），也可能需要係統管理員重置密碼。</span><span>這稱為密碼歷史記錄。</span><span>系統管理員可以設置密碼歷史記錄的限制，最多可以存儲25個先前的密碼。</span><span>最後，如果攻擊者試圖猜測用戶的密碼，則可以進行設置，以防止在一定時間內發生一定數量的不成功登錄時鎖定用戶帳戶。</span><span>例如，如果在15分鐘內發生了四次失敗的登錄，則係統可能需要等待60分鐘才能讓用戶登錄（即使用戶嘗試輸入正確的密碼），也可能需要係統管理員重置密碼。</span><span>這稱為密碼歷史記錄。</span><span>系統管理員可以設置密碼歷史記錄的限制，最多可以存儲25個先前的密碼。</span><span>最後，如果攻擊者試圖猜測用戶的密碼，則可以進行設置，以防止在一定時間內發生一定數量的不成功登錄時鎖定用戶帳戶。</span><span>例如，如果在15分鐘內發生了四次失敗的登錄，則係統可能需要等待60分鐘才能讓用戶登錄（即使用戶嘗試輸入正確的密碼），也可能需要係統管理員重置密碼。</span><span>如果在一定時間內發生一定數量的失敗登錄，則可以通過鎖定用戶帳戶來防止這種情況的發生。</span><span>例如，如果在15分鐘內發生了四次失敗的登錄，則係統可能需要等待60分鐘才能讓用戶登錄（即使用戶嘗試輸入正確的密碼），也可能需要係統管理員重置密碼。</span><span>如果在一定時間內發生一定數量的失敗登錄，則可以通過鎖定用戶帳戶來防止這種情況的發生。</span><span>例如，如果在15分鐘內發生了四次失敗的登錄，則係統可能需要等待60分鐘才能讓用戶登錄（即使用戶嘗試輸入正確的密碼），也可能需要係統管理員重置密碼。</span></span></p>
+</div>
+</div>
+</div>
+</div><br />P63 << <a href='P63.html'>Previous</a> <a href='p88.html'>Next</a> >> p88</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
