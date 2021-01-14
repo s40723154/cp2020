@@ -133,10 +133,37 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">P68 << <a href='P68.html'>Previous</a> <a href='P71.html'>Next</a> >> P71<br /><h1>P69</h1>
-<p><span>When desktops were originally developed, they weren’t designed to allow for hot-swapping of devices. Hot-swapping is the act of adding or removing a device while the computer is still turned on. In the old days, the user would shut the system down, power the workstation off, then connect the device, and turn the machine back on, otherwise the computer wouldn’t recognize the new device. In the late 1990s, the Windows operating system began to allow hot-swapping of devices, which included USB and FireWire. This allowed the user to simply plug in a device, wait a few seconds, and then begin using it to store or retrieve data. Due to this hot-swapping, it is important that users use the “eject drive safely” feature in Windows before unplugging a device, otherwise data loss will occur. SATA/eSATA also support hot-swapping, but only if AHCI (advanced host controller interface) is selected during configuration in the BIOS. If not, the drive will work as if it is an older PATA/IDE device and will not support hot-swapping.</span></p>
-<p>最初開發台式機時，它們的設計不允許熱插拔設備。熱交換是在計算機仍打開時添加或刪除設備的操作。在過去，用戶將關閉系統，關閉工作站電源，然後連接設備，然後重新啟動計算機，否則計算機將無法識別新設備。在1990年代後期，Windows操作系統開始允許熱插拔設備，包括USB和FireWire。這使用戶可以簡單地插入設備，等待幾秒鐘，然後開始使用它來存儲或檢索數據。由於這種熱交換，因此在拔出設備之前，用戶必須使用Windows中的“安全彈出驅動器”功能，這一點很重要，否則會導致數據丟失。SATA / eSATA也支持熱插拔，但前提是在BIOS中配置期間選擇了AHCI（高級主機控制器接口）。否則，驅動器將像舊的PATA / IDE設備一樣工作，並且不支持熱插拔。</p>
-<br />P68 << <a href='P68.html'>Previous</a> <a href='P71.html'>Next</a> >> P71</div>
+    <div id="tipue_search_content">P69 << <a href='P69.html'>Previous</a> <a href='p88.html'>Next</a> >> p88<br /><h1>P71</h1>
+<p><span><strong>Overview</strong></span></p>
+<p>This module will discuss sources of heat and its effects, along with various ways to cool the CPU and system.</p>
+<p><span><strong>Heat Sources</strong></span><br/>Heat is generated through thermal radiation as a by-product of electromagnetic movement within the circuits of our computers. The heat is caused by the internal resistance that the electricity encounters as it flows throughout the computer, and this resistance creates enough heat that the computer often becomes very, very hot inside the case. Each component of the computer creates heat at a different rate, depending on the specific operations being performed. For example, the CPU generates the most heat, since it does the greatest number of computations and uses a large amount of electricity. Another common source of heat is the graphics processing unit (GPU), which does an enormous amount of processing when performing calculations required to support 3D graphics, such as those used in video gaming. Often, during gaming, the GPU will actually create more heat than the CPU.</p>
+<p>Other sources of heat include the hard disk and the optical disc drive, as the spinning of the disks during the read/write cycle can generate heat from both friction and electricity. Another component of the computer that generates an enormous amount of heat is the PSU, as it transforms AC power into DC power. Because it is such a large heat source, the power supply usually has its own dedicated cooling fan.</p>
+<p>Another potential source of heat is the room in which the computer is located. If you are working in a room with a high room temperature, such as 80 degrees Fahrenheit (27 degrees Celsius), the computer has to remove additional internal heat from the machine due to the environmental conditions of the room.</p>
+<p><span>Heat Effects</span><br/>If the computer is unable to remove the heat created by the internal components or environmental heat, the BIOS of the computer may instruct intensive applications to slow down, thereby reducing the processing capability of the CPU and minimizing its heat output. Additionally, the BIOS may actually instruct various components to shut down in order to avoid overheating and possible damage to the components. This can cause the entire system to shut down without warning and can occur routinely unless a more efficient cooling system, such as a larger, more efficient fan, is outfitted into the computer. A system shutdown is rather commonplace in machines where overclocking has been performed, or in systems where a cooling fan has become damaged.</p>
+<p>Often there is no indication to the end user that an overheating condition is occurring, but even this can have severe consequences. Hard disk drives, CPUs, and GPUs are all sensitive to temperature changes. Hard drives in particular can become irreparably damaged by temperature changes due to the expansion and contraction of device components. This can cause read/write errors, or even a complete failure of the disk drive.</p>
+<p>Heat Reduction<br/>There are many ways to reduce the amount of heat generated in a computer, but the most notable way is the use of a heat sink, like the one pictured below in green. A heat sink works to draw heat away from the sensitive components, such as the CPU, GPU, northbridge, and southbridge, through conduction. It then uses the fins to dissipate heat across a wider surface area. A fan usually moves air over the surface to remove the heat from the heat sink and push it out the computer’s exhaust vents on the back of the system. Heat sinks are created out of aluminum alloys or copper, which are soft metals with high heat conductivity.</p>
+<p><img alt="image1.png (480×360)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH08/webcontent/PCH08/image1.png"/></p>
+<p>CPU heat sink. Photo used under CC-BY-NC-ND license from Paul Ely.</p>
+<p>Modern PCs can create a great deal of heat and require the use of both a heat sink and a cooling fan to aid in airflow and reduce the effect of heat on the nearby components. Case design is important to create good air flow through the case. Just like opening the windows and doors of a house can create a straight-through wind tunnel effect, cases are built to maximize airflow. Also, cables inside the case should be bundled and tucked out of the way to increase airflow and maximize cooling.</p>
+<p><span><strong>總覽</strong></span><br/>本模塊將討論熱源及其影響，以及冷卻CPU和系統的各種方法。</p>
+<p><span><strong>熱源</strong></span><br/>通過熱輻射產生的熱量是我們計算機電路內電磁運動的副產品。熱量是由電流在整個計算機中流動時遇到的內部電阻引起的，並且該電阻產生的熱量足以使計算機在機殼內部變得非常非常熱。根據所執行的特定操作，計算機的每個組件以不同的速率產生熱量。例如，CPU產生的熱量最多，因為它進行了大量的計算並消耗大量電能。另一個常見的熱量來源是圖形處理單元（GPU），當執行支持3D圖形（例如視頻遊戲中使用的圖形）所需的計算時，它將進行大量處理。通常，在遊戲過程中</p>
+<p>其他熱源包括硬盤和光盤驅動器，因為在讀/寫週期中磁盤的旋轉會因摩擦和電而產生熱量。產生大量熱量的計算機的另一個組件是PSU，它可以將交流電轉換為直流電。由於電源如此之大，因此電源通常具有自己的專用冷卻風扇。</p>
+<p>另一個潛在的熱源是計算機所在的房間。如果您在室溫較高的房間（例如華氏80度（27攝氏度））中工作，由於房間的環境條件，計算機必須從機器中清除其他內部熱量。</p>
+<p><span><strong>熱效應</strong></span><br/>如果計算機無法消除內部組件產生的熱量或環境熱量，則計算機的BIOS可能會指示密集型應用程序放慢速度，從而降低CPU的處理能力並最小化其熱量輸出。另外，BIOS實際上可以指示各種組件關閉，以避免過熱和對組件的可能損壞。這可能會導致整個系統關閉而不發出警告，並且可能會常規發生，除非計算機中裝有更高效的冷卻系統（例如更大，更高效的風扇）。在執行超頻的機器中或在冷卻風扇已損壞的系統中，系統關閉非常普遍。</p>
+<p>通常，最終用戶沒有跡象表明發生了過熱情況，但即使這樣也會造成嚴重後果。硬盤驅動器，CPU和GPU都對溫度變化敏感。由於設備組件的膨脹和收縮，特別是硬盤驅動器會因溫度變化而造成不可挽回的損害。這可能導致讀/寫錯誤，甚至導致磁盤驅動器完全故障。</p>
+<p><span><strong>減少熱量</strong></span><br/>有許多方法可以減少計算機中產生的熱量，但是最顯著的方法是使用散熱器，如下面的綠色圖片所示。散熱器通過傳導將熱量從敏感組件（例如CPU，GPU，北橋和南橋）吸走。然後，它使用散熱片在更寬的表面積上散熱。風扇通常在表面上移動空氣，以從散熱器中散熱，然後將其從系統背面的計算機排氣孔中推出。散熱器由鋁合金或銅製成，而鋁合金或銅是具有高導熱性的軟金屬。</p>
+<p><img alt="image1.png (480×360)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH08/webcontent/PCH08/image1.png"/></p>
+<p>現代PC會產生大量熱量，並且需要同時使用散熱器和冷卻風扇來幫助氣流並減少熱量對附近組件的影響。機箱設計對於在機箱中產生良好的氣流很重要。就像打開房屋的門窗可以產生直通的風洞效果一樣，箱體也可以最大化氣流。另外，應捆紮和捆紮外殼內的電纜，以增加氣流並最大程度地冷卻。</p>
+<div class="section" id="N105BF">
+<div class="sectionContain">
+<div class="section" id="N105BF">
+<div class="sectionContain">
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<br />P69 << <a href='P69.html'>Previous</a> <a href='p88.html'>Next</a> >> p88</div>
         
     <!-- footer -->
       <div class="container">
