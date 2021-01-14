@@ -1,0 +1,225 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40723154 </h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40723154 </a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='cmsimde.html'>cmsimde</a><ul class='dropdown'><li class='has-children'><a href='CMSiMDE 程式架構.html'>CMSiMDE 程式架構</a><ul class='dropdown'><li><a href='網際內容管理.html'>網際內容管理</a><li><a href='如何建立CMSIMDE子模組.html'>如何建立CMSIMDE子模組</a><li><a href='兩種git clone.html'>兩種git clone</a><li><a href='為何需要動態網頁和靜態網頁.html'>為何需要動態網頁和靜態網頁</a></li></li></ul></ul><li class='has-children'><a href='hw1.html'>hw1</a><ul class='dropdown'><li><a href='P62.html'>P62</a><li><a href='P63.html'>P63</a><li><a href='P64.html'>P64</a><li><a href='P65.html'>P65</a><li><a href='P66.html'>P66</a><li><a href='P67.html'>P67</a><li><a href='p88.html'>p88</a><li><a href='p118.html'>p118</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">P66 << <a href='P66.html'>Previous</a> <a href='p88.html'>Next</a> >> p88<br /><h1>P67</h1>
+<p>Hard disk drives (HDDs) are by far the most important storage device used by a personal computer. These drives store all the user’s data files, applications, and operating systems. Whether the drive is internal or external, it is built the same way. Most drives are built from one or more double-sided platters of aluminum or glass that is coated with a magnetic surface. In the first hard drives, users were lucky to store a maximum of 5 MB of data, but now storage space of 500 GB to 3 TB is commonplace in most users’ workstations. Storage has certainly evolved into expansive storage capacities at minimal cost, with excellent performance speeds.</p>
+<p><img alt="image23.jpeg (600×409)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image23.jpeg"/></p>
+<p>Hard disk. Copyright: karn 2608/123 RF Stock Photo.</p>
+<p></p>
+<p><img alt="image24.png (308×205)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image24.png"/></p>
+<p>A photograph depicting the inner workings of a hard disk. The disk is circular, like a phonograph record, with an arm over it.<br/>Hard disk dissection. Photo used under CC-BY-NC-ND license from Roberto Fantana.</p>
+<p>Hard drives are rated on several characteristics beyond the simple measurement of how much storage space they have. Most users will simply pick a drive based on the storage capacity, but the other performance factors can be even more important. If the drive is a SATA device, it can reach data transfer speeds of up to 6 Gbps, but that is dependent on how fast the drive can access the data from the disk. Hard drives have a spin rate, which is measured in rotations per minute (RPM). It is common for hard drives to have a 5400 RPM rate, but more expensive drives have 7200 RPM, 10000 RPM, or even 15000 RPM rates. The faster spin rates are usually found in servers and high-performance gaming systems, but the 7200 RPM drives are becoming more commonplace as prices continue to decline. Hard disks also have an internal buffer or cache. A inexpensive drive may have a buffer of only 8 MB, while a more expensive drive will have 64 MB of buffer. The bigger the buffer, the better the performance, and the faster the data retrieval from the disk.</p>
+<p>The newest technology in the storage arena is the solid state drive (SSD). As with most technology, this was fairly expensive when first introduced into the market, but pricing has leveled off and most PC manufacturers offer an SSD solution on new machines.</p>
+<p>Initially, in an effort to increase performance, some HDD manufacturers created a hybrid drive, combining a small solid state drive with a large traditional hard disk to give the user increased speed without the enormous cost of solid state drives. These devices are faster than a traditional drive, but not nearly as fast as an SSD.</p>
+<p>In addition to hybrid drives, Intel developed the mSata interface for mobile computing. The smaller form factor allows high-capacity SSD storage at the same access speeds by connecting to the SATA host controller.</p>
+<p><img alt="image25.png (330×220)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image25.png"/></p>
+<p>SSD/HDD hybrid + HDD hard drive. Photo used under CC-BY license from Yutaka Tsutano.</p>
+<p>SSDs are intended to replace the traditional hard disk. They are fast and durable, and contain no moving parts. The SSD emulates a traditional hard drive and is often used in netbooks, Ultrabooks, and other lightweight systems, or machines that require fast, quiet performance. Most SSDs come in a 2.5-inch form factor, similar to a laptop hard disk, and use a 2.5-inch to 3.5-inch adapter when being placed in a desktop computer. The SSD can be built using multilevel cell (MLC) to save money, but these tend to be much slower than their more expensive and faster counterpart, the SLC (single level cell). Initially, these drives cost five to ten times as much as an equivalent-capacity traditional hard disk. Market demand and increased production have helped lower the pricing. As of the end of 2015, a 2.5-inch 250 GB SATAIII SSD can be purchased for less than $100, but the same amount of money would purchase a traditional 2 TB HDD. But, they are significantly faster and quieter, since they can access the information directly without having to wait for the hard disk to spin up and find the data on the disk.</p>
+<p><img alt="image26.png (320×240)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image26.png"/></p>
+<p>Solid state drive (SSD). Photo used under CC-BY-NC-ND license from Thomas Schewe.</p>
+<p>A redundant array of inexpensive drives (RAID) combines numerous traditional physical hard drives into a single logical disk to provide a faster or more redundant singular drive. RAID 0 (RAID zero) uses at least two drives to act as a single drive, using striping to boost performance. But, if either drive fails, all the data is lost. Therefore, with RAID 0, the user gains speed but does not gain any redundancy. RAID 1 (RAID one) uses at least two drives to act as a single drive, using mirroring to boost redundancy. Every time the drive is written to by the computer, two copies of the information are written (one to each drive). So, if either drive fails, all the data is still accessible and safe on the other drive. With RAID 1 the user gains redundancy, but does not gain any speed.</p>
+<p>Since RAID 0 gave us speed with no redundancy, and RAID 1 gave us redundancy with no increase in speed, engineers developed a hybrid of the two called RAID 01 or RAID 10. In RAID 01 or 10, four drives are combined using the striping from RAID 0 with the mirroring from RAID 1 to gain both speed and redundancy. The only problem with this solution is that you lose fifty percent of the storage space (just like we did in RAID 1) to overhead/redundancy. To overcome this, another variant, RAID 5, was established. In RAID 5, at least three drives are required and they operate as a single logical drive. When information is written to the drive, that information is striped across the drives and a parity is also spread across the drives. If a single drive fails, the information can be rebuilt using the existing information and parity information to fill in the missing pieces. Using hot-swappable drives, a bad drive can be removed, a new one inserted, and the RAID rebuilt without any downtime (though a performance loss will occur while the RAID is being rebuilt).</p>
+<p><img alt="image27.png (312×217)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image27.png"/></p>
+<p>Stripe of RAID Mirrors. Image used under CC-BY license from Linux Screenshots.</p>
+<p>硬盤驅動器（HDD）是迄今為止個人計算機使用的最重要的存儲設備。這些驅動器存儲所有用戶的數據文件，應用程序和操作系統。無論驅動器是內部驅動器還是外部驅動器，其構建方式均相同。大多數驅動器是由一個或多個塗有磁性表面的鋁或玻璃雙面盤製成的。在第一個硬盤驅動器中，用戶很幸運地存儲了最多5 MB的數據，但是現在在大多數用戶的工作站中，500 GB至3 TB的存儲空間已司空見慣。毫無疑問，存儲已發展為具有最低性能和卓越性能的擴展存儲容量。<img alt="image23.jpeg (600×409)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image23.jpeg"/></p>
+<p>硬盤。版權所有：karn 2608/123 RF Stock Photo。<img alt="image24.png (308×205)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image24.png"/></p>
+<p>硬盤解剖。照片由Roberto Fantana根據CC-BY-NC-ND許可 使用。</p>
+<p>除了簡單地測量硬盤具有多少存儲空間外，還對硬盤進行了多種評估。大多數用戶只會根據存儲容量選擇一個驅動器，但其他性能因素可能更為重要。如果驅動器是SATA設備，則它可以達到高達6 Gbps的數據傳輸速度，但這取決於驅動器可以從磁盤訪問數據的速度。硬盤驅動器具有旋轉速度，該旋轉速度以每分鐘的旋轉數（RPM）度量。硬盤驅動器通常具有5400 RPM的速率，但是更昂貴的驅動器具有7200 RPM，10000 RPM甚至15000 RPM的速率。在服務器和高性能遊戲系統中通常可以找到更快的旋轉速度，但是隨著價格的不斷下降，7200 RPM驅動器變得越來越普遍。硬盤還具有內部緩衝區或緩存。便宜的驅動器可能只有8 MB的緩衝區，而價格更高的驅動器將有64 MB的緩衝區。緩衝區越大，性能越好，並且從磁盤檢索數據的速度越快。</p>
+<p>固態硬盤（SSD）是存儲領域中的最新技術。與大多數技術一樣，這在首次投入市場時相當昂貴，但價格趨於平穩，大多數PC製造商都在新機器上提供SSD解決方案。</p>
+<p>最初，為了提高性能，一些HDD製造商創建了一種混合驅動器，將小型固態驅動器與大型傳統硬盤結合在一起，從而為用戶提供了提高的速度，而又沒有固態驅動器的巨額成本。這些設備比傳統驅動器快，但不及SSD快。</p>
+<p>除了混合驅動器，英特爾還開發了用於移動計算的mSata接口。較小的外形尺寸，通過連接到SATA主機控制器，可以以相同的訪問速度實現大容量SSD存儲。</p>
+<p><img alt="image25.png (330×220)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image25.png"/></p>
+<p>SSD旨在替代傳統硬盤。它們既快速又耐用，並且沒有活動部件。SSD模仿傳統的硬盤驅動器，通常用於上網本，超極本和其他輕量級系統，或要求快速，安靜性能的機器。大多數SSD的外形尺寸為2.5英寸，類似於筆記本電腦的硬盤，放在台式機中時使用2.5英寸至3.5英寸的適配器。可以使用多層單元（MLC）來構建SSD，以節省資金，但是這些SSD往往比價格更高，速度更快的同類產品SLC（單層單元）慢得多。最初，這些驅動器的成本是同等容量的傳統硬盤的五至十倍。市場需求和產量增加幫助降低了定價。截至2015年底，已有2。可以不到100美元的價格購買5英寸250 GB SATAIII SSD，但是用同樣的錢可以購買傳統的2 TB HDD。但是，它們可以更快，更安靜地運行，因為它們可以直接訪問信息，而不必等待硬盤啟動並在磁盤上查找數據。</p>
+<p><img alt="image26.png (320×240)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image26.png"/></p>
+<p>廉價驅動器冗餘陣列（RAID）將眾多傳統物理硬盤驅動器組合到單個邏輯磁盤中，以提供更快或更冗餘的單個驅動器。RAID 0（RAID 0）至少使用兩個驅動器作為一個驅動器，並通過 條帶化 來提高性能。但是，如果任何一個驅動器發生故障，所有數據都會丟失。因此，使用RAID 0，用戶可以提高速度，但不會獲得任何冗餘。RAID 1（RAID 1）使用鏡像至少使用兩個驅動器作為一個驅動器 提高冗餘度。每次計算機寫入驅動器時，都會寫入兩份信息副本（每個驅動器一份）。因此，如果任何一個驅動器發生故障，所有數據仍然可以在另一個驅動器上訪問並且安全。使用RAID 1，用戶可以獲得冗餘，但不會獲得任何速度。</p>
+<p>由於RAID 0為我們提供了無冗餘的速度，而RAID 1為我們提供了無速度的冗餘，因此工程師開發了兩種混合的RAID 01或RAID10。在RAID 01或10中，使用從具有從RAID 1鏡像的RAID 0，可同時獲得速度和冗餘。該解決方案的唯一問題是，您會損失百分之五十的存儲空間（就像我們在RAID 1中所做的一樣）以增加開銷/冗餘。為了克服這個問題，建立了另一個變體RAID 5。在RAID 5中，至少需要三個驅動器，它們可作為單個邏輯驅動器運行。將信息寫入驅動器後，該信息將在驅動器上分條，並且奇偶校驗也會分佈在驅動器上。如果單個驅動器發生故障，可以使用現有信息和奇偶校驗信息來重建信息，以填充丟失的部分。使用可熱插拔的驅動器，可以卸下損壞的驅動器，插入新的驅動器，並且可以在不造成任何停機的情況下重建RAID（儘管在重建RAID時會造成性能損失）。</p>
+<p><img alt="image27.png (312×217)" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image27.png"/></p>
+<p>要創建RAID陣列，工作站必須具有支持硬件RAID的PATA或SATA硬件控制器。有些主板本身支持這些主板，而另一些主板則需要用戶購買擴展卡才能執行這些功能。如果您的系統不支持硬件RAID，則Windows在所有系統上都支持軟件RAID，但是使用這種方法，您將失去主操作系統的RAID優勢。</p>
+<p>硬件RAID至少需要兩個硬盤用於RAID 0或RAID 1，至少三個磁盤用於RAID 5，以及至少四個磁盤用於RAID 10或RAID01。要創建軟件RAID，可以使用Windows的磁盤管理軟件來創建RAID。為數據驅動器和其他分區創建RAID。</p>
+</div>
+</div>
+</div>
+</div>
+<br />P66 << <a href='P66.html'>Previous</a> <a href='p88.html'>Next</a> >> p88</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
